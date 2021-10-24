@@ -1,5 +1,5 @@
 function CallType(Page, Rating) {
-    if (Number(Page) < 0 || Number(Page) > 20000 || Number(Rating) < 0 || Number(Rating) > 10 || Number(Page) == NaN || Number(Rating) == NaN)
+    if (Number(Page) < 0 || Number(Page) > 2000 || Number(Rating) < 0 || Number(Rating) > 10 || Number(Page) == NaN || Number(Rating) == NaN)
         return ("Khong hop le!");
 
     if (Number(Page) < 200) {
@@ -27,6 +27,6 @@ function CallType(Page, Rating) {
 
 }
 
-console.log(CallType(600, 7));
+// console.log(CallType(600, 7));
 
 export {CallType};
