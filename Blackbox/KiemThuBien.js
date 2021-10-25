@@ -1,4 +1,4 @@
-import { CallType } from "../app";
+const CallType = require("../app");
 
 /*
 Kiem thu bien voi gia tri nomPage = 500, nomRating = 5

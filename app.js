@@ -25,8 +25,8 @@ function CallType(Page, Rating) {
     }
 
 
-}
+};
 
 // console.log(CallType(600, 7));
 
-export {CallType};
+module.exports = CallType;
