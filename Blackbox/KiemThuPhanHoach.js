@@ -1,4 +1,4 @@
-import { CallType } from "../app";
+const CallType = require("../app");
 
 /*
 Kiem thu phan hoach voi Page phan ra [0, 199], [200, 499], [500, 2000]; Rating phan ra [0, 6], [7, 10].
